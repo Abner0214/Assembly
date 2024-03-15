@@ -27,7 +27,7 @@ The repository is divided into three folders, corresponding to the three homewor
 **Objective:** Implement a disassembly program in ARM assembly that can partially disassemble the instruction contents of your program. It should identify data processing, LDR, STR, and branch instructions, showing their condition field and instruction name. For branch instructions, also show the target PC value.
 
 **Example Output:**
-```
+```c++
 PC    condition   instruction    
 0     AL          ADD     
 4     EQ          SUB     
