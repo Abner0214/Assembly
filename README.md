@@ -6,10 +6,10 @@ This repository hosts the assembly language homework assignments for the Assembl
 
 The repository is divided into three folders, corresponding to the three homework assignments:
 
-- `hw1/` - <Programming Problem I> Write an ARM assembly code to implement a program which will convert the input string into lowercase, and remove all non-alphabet characters. The result will be shown in the screen.
-- `hw2/` - <Programming Problem II> Write an ARM assembly code to implement a deasm program which can partially deassembly the instruction contents of your program. Your program should identify every data processing, LDR, SDR and branch instructions written in a given program test.s, and show its condition filed, and instruction name. For branch instruction, you should also show the target PC value..
-- `hw3/` - <Programming Problem III> Write an x86 assembly code to implement a arithm program which can compute the specified arithmetic functions and display the result on the screen. You just need to implement the three arithmetic functions shown in the following table.
-### <> hw1: String Manipulation in ARM Assembly
+- `hw1/` - \<Programming Problem I\> Write an ARM assembly code to implement a program which will convert the input string into lowercase, and remove all non-alphabet characters. The result will be shown in the screen.
+- `hw2/` - \<Programming Problem II\> Write an ARM assembly code to implement a deasm program which can partially deassembly the instruction contents of your program. Your program should identify every data processing, LDR, SDR and branch instructions written in a given program test.s, and show its condition filed, and instruction name. For branch instruction, you should also show the target PC value..
+- `hw3/` - \<Programming Problem III\> Write an x86 assembly code to implement a arithm program which can compute the specified arithmetic functions and display the result on the screen. You just need to implement the three arithmetic functions shown in the following table.
+### hw1: String Manipulation in ARM Assembly
 
 **Objective:** Write an ARM assembly code program to convert an input string into lowercase and remove all non-alphabet characters. The result is then displayed on the screen.
 
@@ -21,7 +21,7 @@ The repository is divided into three folders, corresponding to the three homewor
 - Use `printf()` for output.
 - Do not use `scanf()` for input.
 
-### <> hw2: Partial Disassembler in ARM Assembly
+### hw2: Partial Disassembler in ARM Assembly
 
 **Objective:** Implement a disassembly program in ARM assembly that can partially disassemble the instruction contents of your program. It should identify data processing, LDR, STR, and branch instructions, showing their condition field and instruction name. For branch instructions, also show the target PC value.
 
@@ -39,7 +39,7 @@ PC    condition   instruction
 **Requirements:**
 - Include the test program using `.include` gcc assembly directive.
 
-### <> hw3: Arithmetic Functions in x86 Assembly
+### hw3: Arithmetic Functions in x86 Assembly
 
 **Objective:** Write an x86 assembly code program to compute specific arithmetic functions (maximum, greatest common divisor, least common multiple) based on inputs and display the results.
 
