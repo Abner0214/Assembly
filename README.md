@@ -6,7 +6,7 @@ This repository hosts the assembly language homework assignments for the Assembl
 
 The repository is divided into three folders, corresponding to the three homework assignments:
 
-- `hw1/` - Programming Problem I
+- `hw1/` - <Programming Problem I> Write an ARM assembly code to implement a program which will convert the input string into lowercase, and remove all non-alphabet characters. The result will be shown in the screen.
 - `hw2/` - Programming Problem II
 - `hw3/` - Programming Problem III
 
