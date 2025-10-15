@@ -6,9 +6,10 @@ This repository hosts the assembly language homework assignments for the Assembl
 
 The repository is divided into three folders, corresponding to the three homework assignments:
 
-- `hw1/` - \<Programming Problem I\> Write an ARM assembly code to implement a program which will convert the input string into lowercase, and remove all non-alphabet characters. The result will be shown in the screen.
-- `hw2/` - \<Programming Problem II\> Write an ARM assembly code to implement a deasm program which can partially deassembly the instruction contents of your program. Your program should identify every data processing, LDR, SDR and branch instructions written in a given program test.s, and show its condition filed, and instruction name. For branch instruction, you should also show the target PC value..
-- `hw3/` - \<Programming Problem III\> Write an x86 assembly code to implement a arithm program which can compute the specified arithmetic functions and display the result on the screen. You just need to implement the three arithmetic functions shown in the following table.
+- `hw1/` - \<Programming Problem I\> Write an `ARM assembly` code to implement a program which will convert the input string into lowercase, and remove all non-alphabet characters. The result will be shown in the screen.
+- `hw2/` - \<Programming Problem II\> Write an `ARM assembly` code to implement a deasm program which can partially deassembly the instruction contents of your program. Your program should identify every data processing, LDR, SDR and branch instructions written in a given program test.s, and show its condition filed, and instruction name. For branch instruction, you should also show the target PC value..
+- `hw3/` - \<Programming Problem III\> Write an `x86 assembly` code to implement a arithm program which can compute the specified arithmetic functions and display the result on the screen. You just need to implement the three arithmetic functions shown in the following table.
+
 ### hw1: String Manipulation in ARM Assembly
 
 **Objective:** Write an ARM assembly code program to convert an input string into lowercase and remove all non-alphabet characters. The result is then displayed on the screen.
